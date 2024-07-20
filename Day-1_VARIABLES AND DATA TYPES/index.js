@@ -17,27 +17,27 @@ console.log(b);
 //Activity 3: Data Types
 //• Task 4: Create variables of different data types (number, string, boolean, object, array) and log each variable's type using the typeof operator. Activity 4: Reassigning Variables
 var num=1;
-console.log(typeof one);
+console.log(typeof num);
 
 var str="two";
-console.log(typeof two);
+console.log(typeof str);
 
 const bool=true;
-console.log(typeof three);
+console.log(typeof bool);
 
 let person={
     name:"Aziza",
     age:24
 }
-console.log(typeof four);
+console.log(typeof person);
 
 let arr=[7,17,77,"20"];
-console.log(typeof five); 
+console.log(typeof arr); 
 
 //• Task 5: Declare a variable using let, assign it an initial value, reassign a new value, and log both values to the console.
 let num1=10;
-six=17;   
-console.log(six);
+num1=17;   
+console.log(num1);
 //Activity 5: Understanding const
 
 //• Task 6: Try reassigning a variable declared with const and observe the error.
